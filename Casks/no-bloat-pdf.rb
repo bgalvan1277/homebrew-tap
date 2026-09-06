@@ -1,9 +1,9 @@
 cask "no-bloat-pdf" do
   arch arm: "apple-silicon", intel: "intel"
 
-  version "1.4.1"
-  sha256 arm:   "e8937652b6eae15589a9149ffb3760f36e37c738e953094aed2944e28a86d167",
-         intel: "545124749ed3a13c1a9569a549585caeaf7620e8fe43fdbf410a0e28fc6711b1"
+  version "1.5.0"
+  sha256 arm:   "2c4b11b0eb300ff98e6143f118fc67bf1281a01336dace35332511a903af08bc",
+         intel: "ace4c4f3637af250351f6a0ecdbe1961bf82451d56fa0e19385eafe399b5a317"
 
   url "https://github.com/bgalvan1277/NoBloatPDF/releases/download/v#{version}/NoBloatPDF-#{version}-#{arch}.dmg",
       verified: "github.com/bgalvan1277/NoBloatPDF/"
